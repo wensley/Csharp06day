@@ -102,21 +102,72 @@ namespace _01复习
         }
         */
             //27复习习题讲解 -练习1:输入一个数字6，列出和等于数字6的所有式子
-            //int num = 0;
-            //int sum = 0;
+            /*
+            //我做的方案一   //没有考虑输入错误，没有循环
             Console.WriteLine("请输入一个值：");
-            int num =Convert.ToInt32( Console.ReadLine());
-            for (int i = 0; i <= 6; i++)
+            int input = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i <= input; i++)
             {
-                for (int j=0; i <= 6;j++)
+                for (int j = 0; j <= input; j++)
                 {
-                    Console.WriteLine("{0}+{1}={2}",i,j,num);
-                }
-                
-            }
+                    if (i + j == input)//(i+j=input)错误: CS0131  赋值号左边必须是变量、属性或索引器。应该是两个等号，单个=号是赋值！！！
+                    {
+                        Console.WriteLine("{0}+{1}={2}", i, j, i + j);
 
+                    }
+                }
+            }
             Console.ReadKey();
-        
+            */
+            //我做的方案二，没有循环。。。
+            /*
+            Console.WriteLine("请输入一个值：");
+            int input = 0;
+            try
+            {
+                input = Convert.ToInt32(Console.ReadLine());
+                for (int i = 0; i <= input; i++)
+                {
+                    for (int j = 0; j <= input; j++)
+                    {
+                        if (i + j == input)
+                        {
+                            Console.WriteLine("{0}+{1}={2}", i, j, i + j);
+
+                        }
+                    }
+                }
+            }
+            catch
+            {
+                Console.WriteLine("您输入的不是数字，请重新输入！");
+            }
+            Console.ReadKey();
+            */
+            /*
+            //老师演示的
+            Console.WriteLine("请输入一个值：");
+            int input = 0;
+            bool number = false;
+            while (number == false)
+            {
+                try
+                {
+                    input = Convert.ToInt32(Console.ReadLine());
+                    number = true;
+                }
+                catch
+                {
+                    Console.WriteLine("您输入的不是数字，请重新输入！");
+                    number = false;
+                }
+            }
+            for (int i = 0; i < input + 1; i++)
+            {
+                Console.WriteLine("{0}+{1}={2}", i, input - i, input);
+            }
+            Console.ReadKey();
+            */
 
         }
     }
