@@ -21,7 +21,7 @@ namespace _05常量
         static void Main(string[] args)
         {
             gender sex;
-            sex = gender.男;
+            sex = gender.女;
             Console.WriteLine("请输入您的性别？");
             string s = Console.ReadLine();
             try
@@ -34,13 +34,13 @@ namespace _05常量
                 Console.WriteLine("您输入的性别有误！");
             }
 
-           // (自定义枚举类型)(enum.Parse(typeof(自定义枚举类型),"待转换的字符串"));
+            // (自定义枚举类型)(enum.Parse(typeof(自定义枚举类型),"待转换的字符串"));
             //Console.WriteLine(sex);
-            //Console.ReadKey();
+            Console.ReadKey();
 
 
 
-            //switch(sex)
+            //switch (sex)
             //{
             //    case gender.男:
             //        Console.WriteLine("男性");
@@ -53,7 +53,7 @@ namespace _05常量
 
             //const double PI = 3.14;  //常量
 
-            
+
             //string gender = "男";
             //gender = "man";
             //gender = "男性";
@@ -62,8 +62,8 @@ namespace _05常量
             //{
 
             //}
-                //枚举
-           
+
+
         }
     }
 }

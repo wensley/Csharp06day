@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04三元表达式", "04三�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05常量枚举", "05常量\05常量枚举.csproj", "{412F480D-BB30-431D-8388-F08D22D95EC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "练习", "练习\练习.csproj", "{9B73D834-FD78-4532-99DB-DF843BFF78AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06结构", "06结构\06结构.csproj", "{A41E0DCE-0C9F-48EE-9B42-A23E8B080A14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{412F480D-BB30-431D-8388-F08D22D95EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{412F480D-BB30-431D-8388-F08D22D95EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{412F480D-BB30-431D-8388-F08D22D95EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B73D834-FD78-4532-99DB-DF843BFF78AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B73D834-FD78-4532-99DB-DF843BFF78AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B73D834-FD78-4532-99DB-DF843BFF78AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B73D834-FD78-4532-99DB-DF843BFF78AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41E0DCE-0C9F-48EE-9B42-A23E8B080A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41E0DCE-0C9F-48EE-9B42-A23E8B080A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41E0DCE-0C9F-48EE-9B42-A23E8B080A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41E0DCE-0C9F-48EE-9B42-A23E8B080A14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
