@@ -49,6 +49,7 @@ namespace _07数组
                 score[i] = Convert.ToInt32(Console.ReadLine());
                 //sum=sum+score[i];  直接这里累加也可以
             }
+
             //求最大值
             max = score[0];
             for (int i = 1; i < score.Length; i++)

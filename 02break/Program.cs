@@ -38,7 +38,6 @@ namespace _02break
                     isAge = false;
                     break;
                 }
-                
             }
             //如果通过break跳出循环，i<5肯定是成立的。
             //如果程序执行到这里，并且退出循环不是由于执行了break引起的，那么一定是循环条件不成立了！

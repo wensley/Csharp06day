@@ -8,8 +8,7 @@ namespace _05常量
 {
     /// <summary>
     /// 定义了一个叫gender的枚举类型，他的值只有两个，男和女
-    /// </summary>
-    
+    /// </summary>    
     enum gender
     {
         男,
@@ -37,9 +36,7 @@ namespace _05常量
             // (自定义枚举类型)(enum.Parse(typeof(自定义枚举类型),"待转换的字符串"));
             //Console.WriteLine(sex);
             Console.ReadKey();
-
-
-
+                        
             //switch (sex)
             //{
             //    case gender.男:

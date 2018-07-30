@@ -71,9 +71,6 @@ public struct Mycolor
 
             Console.ReadKey();
 
-            
-
-
             /*
             Person onePerson;
             onePerson.name = "Jim";
@@ -86,10 +83,7 @@ public struct Mycolor
             secPerson.sex = Sex.girl;
             */
 
-
-
-
-
+            
         }
     }
 }

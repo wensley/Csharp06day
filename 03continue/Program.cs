@@ -24,6 +24,7 @@ namespace _03continue
             }
             Console.WriteLine("sum="+sum);
             Console.ReadKey();
+
         }
     }
 }

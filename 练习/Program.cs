@@ -19,7 +19,6 @@ namespace 练习
     */
     class Program
     {
-
         static void Main(string[] args)
         {
             /*
